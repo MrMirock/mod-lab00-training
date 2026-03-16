@@ -4,6 +4,6 @@
 int64_t power(int64_t x, uint16_t n) {
     int64t result = 1;
     for(uint16_t i = 1; i < n; i++)
-        resulr *=x;
-    return 0;
+        result *= x ;
+    return result;
 }
